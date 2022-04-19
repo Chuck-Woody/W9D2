@@ -1,0 +1,33 @@
+li {
+    border: solid black 1px;
+    width: 75px;
+    height: 75px;
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    font-size: 50px;
+}
+
+li:hover:not(.o, .x) {
+    background-color: yellow;
+}
+
+.x {
+    background-color: red;
+    /* background-color: "red"; */
+}
+
+.o {
+    background-color: green ;
+    /* background-color: "green"; */
+}
+
+
+#grid {
+    list-style-type: none;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 300px;
+    
+}
