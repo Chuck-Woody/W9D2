@@ -15,3 +15,16 @@ for (let i = 0; i < dogList.length; i++) {
     document.getElementsByClassName("drop-down-dog-list")[0].appendChild(dogList[i]);
     
 }
+
+let dogHeader = document.getElementById("d");
+let dogUl = document.getElementsByClassName("drop-down-dog-list")[0]
+
+dogHeader.addEventListener("mouseover", () => {
+    console.log("hovering!")
+    dogUl.style.display = "block";
+});
+
+dogHeader.addEventListener("mouseout", () => {
+    console.log("hovering!")
+    dogUl.style.display = "none";
+});

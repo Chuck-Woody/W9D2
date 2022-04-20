@@ -27,5 +27,12 @@ export function dogLinkCreator(dogs) {
   return liArr;
 }
 
+export function handleEnter() {
+  document.getElementsById()
+}
+
+export function handleLeave() {
+
+}
 
 // console.log(dogLinkCreator());
